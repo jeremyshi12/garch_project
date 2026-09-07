@@ -1,0 +1,33 @@
+{
+  "generated": "2026-07-29T17:47:56",
+  "sample_start": "2000-01-04",
+  "sample_end": "2026-07-29",
+  "indices": {
+    "S&P 500": 6679,
+    "EURO STOXX 50": 4840,
+    "Nikkei 225": 6505,
+    "FTSE 100": 6708
+  },
+  "baseline_model": "GARCH(1,1)-Normal",
+  "persistence": {
+    "S&P 500": 0.98069,
+    "EURO STOXX 50": 0.97631,
+    "Nikkei 225": 0.97595,
+    "FTSE 100": 0.97822
+  },
+  "half_life_days": {
+    "S&P 500": 35.5,
+    "EURO STOXX 50": 28.9,
+    "Nikkei 225": 28.5,
+    "FTSE 100": 31.5
+  },
+  "best_by_bic": {
+    "EURO STOXX 50": "GJR-GARCH(1,1)-t",
+    "FTSE 100": "GJR-GARCH(1,1)-t",
+    "Nikkei 225": "GJR-GARCH(1,1)-t",
+    "S&P 500": "GJR-GARCH(1,1)-t"
+  },
+  "figures": 16,
+  "tables": 22,
+  "runtime_seconds": 46.7
+}

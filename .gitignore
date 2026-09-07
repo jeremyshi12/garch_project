@@ -1,0 +1,14 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Cached downloads and derived panels — regenerate with `python -m src.run_analysis`
+data/raw/
+data/processed/
+
+# OS
+.DS_Store
